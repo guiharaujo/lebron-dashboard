@@ -2,6 +2,8 @@
 
 Interactive dashboard visualizing LeBron James' complete NBA career using Python + Streamlit.
 
+🟢 **[Acesse o app ao vivo](https://lebron-dashboard-oxu6odw5dzngyq3y8l9zjf.streamlit.app/)**
+
 ## Features
 
 - **Career Stats**: PPG/RPG/APG per season with championship markers, team comparison, and raw data table
