@@ -25,7 +25,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Opens automatically at `http://localhost:8501`.
+Ou acesse diretamente: **[lebron-dashboard.streamlit.app](https://lebron-dashboard-oxu6odw5dzngyq3y8l9zjf.streamlit.app/)**
 
 ## Data Sources
 
