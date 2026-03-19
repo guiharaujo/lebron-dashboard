@@ -40,3 +40,11 @@ components/
 - `LEBRON_ID = 2544` — NBA player ID used in all API calls
 - Team colors in `TEAM_COLORS`/`TEAM_SECONDARY_COLORS` drive visual theming per season
 - Championship years (2012, 2013, 2016, 2020) are marked with 🏆 in the season table
+
+## GitHub Repository
+
+Repository: https://github.com/guiharaujo/lebron-dashboard
+
+**Auto-sync:** A Claude Code hook (`PostToolUse` on `Edit|Write`) automatically commits and pushes every file change to GitHub. No manual git commands needed — every edit is synced automatically.
+
+To manage the hook: open `/hooks` in Claude Code to view, edit, or disable it. The hook config lives in `.claude/settings.json`.
