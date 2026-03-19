@@ -48,3 +48,9 @@ Repository: https://github.com/guiharaujo/lebron-dashboard
 **Auto-sync:** A Claude Code hook (`PostToolUse` on `Edit|Write`) automatically commits and pushes every file change to GitHub. No manual git commands needed — every edit is synced automatically.
 
 To manage the hook: open `/hooks` in Claude Code to view, edit, or disable it. The hook config lives in `.claude/settings.json`.
+
+## Live App
+
+URL: https://lebron-dashboard-oxu6odw5dzngyq3y8l9zjf.streamlit.app/
+
+Hosted on Streamlit Community Cloud, connected to the `main` branch of the GitHub repo. Every push automatically redeploys the app.
