@@ -11,7 +11,9 @@
       "Skill(update-config)",
       "Skill(update-config:*)",
       "Bash(bash -c 'cd \"\"\"\"/c/Users/guiha/OneDrive/Documentos/Projeto Claude\"\"\"\" && export PATH=\"\"\"\"$PATH:/c/Program Files/GitHub CLI\"\"\"\" && git add -A && git diff --cached --quiet || git commit -m \"\"\"\"Auto-update: $\\(date \\\\\"\"\"\"+%Y-%m-%d %H:%M:%S\\\\\"\"\"\"\\)\"\"\"\" && git push')",
-      "Bash(echo \"exit: $?\")"
+      "Bash(echo \"exit: $?\")",
+      "Bash(jq -e '.hooks.PostToolUse[] | select\\(.matcher == \"\"Edit|Write\"\"\\) | .hooks[] | select\\(.type == \"\"command\"\"\\) | .command' \"c:\\\\Users\\\\guiha\\\\OneDrive\\\\Documentos\\\\Projeto Claude\\\\.claude\\\\settings.json\")",
+      "Bash(venv/Scripts/python.exe -c \"import app\")"
     ]
   }
 }
